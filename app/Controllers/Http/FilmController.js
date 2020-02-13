@@ -93,7 +93,8 @@ class FilmController {
       })
     })
 
-    return result
+    // return result
+    return response.json({ items: result })
   }
 }
 
